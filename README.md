@@ -7,4 +7,5 @@ $ docker build -t static-nginx .
 
 # run
 $ docker run -p 3000:80 -v $(pwd)/public:/root/public static-nginx
+$ open http://localhost:3000/
 ```
